@@ -1,0 +1,32 @@
+.product {
+  flex-direction: row;
+  height: 84vh;
+}
+.side {
+  width: 15rem;
+}
+.sub-side {
+  display: flex;
+}
+.side-link {
+  display: inline-block;
+}
+.open-btn {
+  display: none;
+}
+
+@media screen and (max-width: 860px) {
+  .product {
+    flex-direction: column;
+  }
+  .side {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .side-link {
+    display: none;
+  }
+  .open-btn {
+    display: inline-block;
+  }
+}

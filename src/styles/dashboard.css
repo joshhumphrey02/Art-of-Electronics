@@ -1,0 +1,51 @@
+.side_bar .side-text {
+  display: inline;
+}
+
+.side_bar .side_logo {
+  display: inline;
+}
+/* @media screen and (max-width: 770px) {
+  .chart {
+    flex-direction: column;
+  }
+  .charts {
+    grid-template-columns: 1fr;
+  }
+  .p-chart {
+    display: none;
+  }
+  .open-btn {
+    display: block;
+  }
+} */
+
+@media screen and (max-width: 640px) {
+  .side_bar {
+    width: 2.7rem;
+    padding-right: 0.5rem;
+    overflow: hidden;
+  }
+  .side_bar .side-text {
+    display: none;
+  }
+  .side_bar .side_logo {
+    display: none;
+  }
+  .recent {
+    width: 100%;
+    padding: 3px;
+  }
+  .recent table th,
+  .recent table td {
+    font-size: 12px;
+  }
+  .recent table th:first-child,
+  .recent table td:first-child,
+  .recent table th:nth-child(2),
+  .recent table th:nth-child(6),
+  .recent table td:nth-child(6),
+  .recent table td:nth-child(2) {
+    display: none;
+  }
+}

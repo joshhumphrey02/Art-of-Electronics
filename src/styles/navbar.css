@@ -1,0 +1,44 @@
+.navbar {
+  width: 15rem;
+  top: 0;
+  height: 100vh;
+  color: white;
+  position: fixed;
+}
+.nav_profile {
+  align-items: center;
+  margin: 3.6rem 0 2.8rem;
+  text-align: center;
+}
+.nav_profile_img {
+  width: 100%;
+  padding: 0.4rem 0;
+  display: flex;
+  justify-content: center;
+}
+.nav_profile_det p {
+  font-size: 12px;
+}
+
+.nav_links {
+  display: grid;
+  height: 70%;
+  grid-template-rows: 12;
+}
+.nav_link {
+  height: 100%;
+}
+.nav_link:last-child {
+  grid-row: 10/11;
+}
+.nav_link a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding-left: 0.6rem;
+  transition-delay: 0.25s;
+}
+.nav_link a:hover {
+  background-color: rgb(127, 129, 133);
+  color: blue;
+}
